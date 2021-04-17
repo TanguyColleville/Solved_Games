@@ -1,4 +1,6 @@
-## Auteur: Tanguy Colleville
+"""
+Solved the magic square problem
+"""
 import time as time 
 
 import matplotlib.pyplot as plt 
@@ -7,6 +9,14 @@ import seaborn as sns
 from tkinter import * 
 from z3 import * 
 
+__author__ = "Colleville Tanguy"
+__copyright__ = "None"
+__credits__ = ["None"]
+__license__ = "None"
+__version__ = "1.0.0"
+__maintainer__ = "Colleville Tanguy"
+__email__ = "colleville.tanguy@gmail.com"
+__status__ = "Finished"
 
 csp=Solver()## Création d'un Solver z3
 
